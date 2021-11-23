@@ -13,6 +13,7 @@ function useAuth() {
         setAuthUser(null);
       }
     });
+    // console.log(unsubscribe);
     // Unsubscribe to the listener
     return () => unsubscribe();
   }, []);
